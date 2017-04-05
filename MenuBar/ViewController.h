@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MenuBarView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<MenuCallBack>
 
 
 @end
